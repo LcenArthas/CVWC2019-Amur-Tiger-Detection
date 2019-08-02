@@ -1,6 +1,6 @@
-# ICCV19-Amur-Tiger-Detection
+# CWCV2019-Amur-Tiger-Detection
 
-This source of the code is mainly for the Tiger Re-ID in the Wild track @[CVWC2019](https://cvwc2019.github.io/challenge.html):
+This source of the code is mainly for the Tiger Re-ID in the Wild track [CVWC2019](https://cvwc2019.github.io/challenge.html) @ICCV19 Workshop:
 
 **Generate detected tiger pictures for Tiger Re-ID in the Wild**.
 
