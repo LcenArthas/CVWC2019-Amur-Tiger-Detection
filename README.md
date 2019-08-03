@@ -61,7 +61,6 @@ And make sure the repo files as the following structure:
   ```
   {repo_root}
   ├── configs
-  ├── data
   ├── lib
   ├── output
   ├── reid_test
