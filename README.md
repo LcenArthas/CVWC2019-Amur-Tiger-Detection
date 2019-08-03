@@ -61,7 +61,11 @@ And make sure the repo files as the following structure:
   ```
   {repo_root}
   ├── configs
+  ├── data
   ├── lib
+  ├── output
+  ├── reid_test
+  ├── show_images
   ├── test
   |   ├── 0001.jpg
   │   ├── 0002.jpg
@@ -69,13 +73,9 @@ And make sure the repo files as the following structure:
   │   ├── 0004.jpg
   │   ├── 0005.jpg
   │   ├── ...
-  ├── data
+  ├── tools
   ├── trained_weight
   │   ├── best_model.pth
-  ├── tools
-  ├── output
-  ├── reid_test
-  ├── show_images
   └── make_coco_data.py
       
   ```
