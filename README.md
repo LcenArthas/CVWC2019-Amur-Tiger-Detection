@@ -62,8 +62,6 @@ And make sure the repo files as the following structure:
   {repo_root}
   ├── configs
   ├── lib
-  ├── output
-  ├── reid_test
   ├── show_images
   ├── test
   |   ├── 0001.jpg
