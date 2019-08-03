@@ -36,3 +36,5 @@ Compile the CUDA code:
 cd lib  # please change to this directory
 sh make.sh
 ```
+
+It will compile all the modules you need, including NMS, ROI_Pooing, ROI_Crop and ROI_Align. (Actually gpu nms is never used ...)
