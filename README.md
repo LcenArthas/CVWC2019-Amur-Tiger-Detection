@@ -21,6 +21,6 @@ This source of the code is mainly for the 'Tiger' 'Re-ID' 'in' 'the' 'Wild' 'tra
 Clone the repo:
 
 ```
-git clone https://github.com/roytseng-tw/mask-rcnn.pytorch.git
+git clone https://github.com/LcenArthas/CWCV2019-Amur-Tiger-Detection.git
 ```
 
