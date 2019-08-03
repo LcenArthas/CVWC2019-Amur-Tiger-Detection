@@ -87,7 +87,7 @@ cd tools
 python infer_simple.py
 ```
 
-
+This process will take about 15 minutes, just a moment, please. 
 
 Run this scrip will generate 3 files in the {repo_root/}:
 
