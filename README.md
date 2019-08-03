@@ -47,6 +47,12 @@ It will compile all the modules you need, including NMS, ROI_Pooing, ROI_Crop an
 
 ### Data Preparation
 
+Creat a new folder named `/test/`:
+
+```
+mkdir test
+```
+
 Put the test images in the `{repo_root}/test/` folder under the repo.
 
 ### Download Pretrained Model
@@ -55,14 +61,15 @@ I use Faster-rcnn-Resnet50-FPN to train my model.
 
  - [Trained weight](https://pan.baidu.com/s/1q5Wdzcq6aKtM1H_VugCe3w)
 
-Download it and put it into the `{repo_root}/trained_weight/`.
+Download it and create a new folder under the {repo_root} named `/trained_weight/`
+
+Put the trained weight into the `{repo_root}/trained_weight/`.
 
 And make sure the repo files as the following structure:
   ```
   {repo_root}
   ├── configs
   ├── lib
-  ├── show_images
   ├── test
   |   ├── 0001.jpg
   │   ├── 0002.jpg
