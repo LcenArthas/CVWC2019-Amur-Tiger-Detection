@@ -1,8 +1,8 @@
 # CWCV2019-Amur-Tiger-Detection
 
-This source of the code is mainly for the Tiger Re-ID in the Wild track [CVWC2019](https://cvwc2019.github.io/challenge.html) @ICCV19 Workshop:
+This source of the code is mainly for the 'Tiger' 'Re-ID' 'in' 'the' 'Wild' 'track' [CVWC2019](https://cvwc2019.github.io/challenge.html) @ICCV19 Workshop:
 
-**Generate detected tiger pictures for Tiger Re-ID in the Wild**.
+**To generate detected tiger pictures for Tiger Re-ID in the Wild**.
 
 #### Dependencies
 - pytorch==0.4.1
@@ -16,4 +16,11 @@ This source of the code is mainly for the Tiger Re-ID in the Wild track [CVWC201
 - packaging
 - pycocotools
 - tensorboardX
+
+## Getting Started
+Clone the repo:
+
+```
+git clone https://github.com/roytseng-tw/mask-rcnn.pytorch.git
+```
 
