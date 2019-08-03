@@ -63,6 +63,10 @@ I use Faster-rcnn-Resnet50-FPN to train my model.
 
 Download it and create a new folder under the {repo_root} named `/trained_weight/`
 
+```
+mkdir trained_weight
+```
+
 Put the trained weight into the `{repo_root}/trained_weight/`.
 
 And make sure the repo files as the following structure:
