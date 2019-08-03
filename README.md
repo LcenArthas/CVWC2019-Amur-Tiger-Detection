@@ -86,8 +86,12 @@ cd tools
 python infer_simple.py
 ```
 
-Run this scrip will generate 3 files in the {repo_root}:
+Run this scrip will generate 3 files in the {repo_root/}:
 
-- det_submission.json — for the `Tiger Detection track`, you can submit in the Tiger Detection track(0.45988 in the Public Leaderboard)
+- det_submission.json — for the `Tiger Detection track`, you can submit in the Tiger Detection track(0.45988 in the Public Leaderboard).
+
+- wide_box.json — for the `Tiger Re-ID in the Wild track`.
+
+- reid_test(a folder) — for the `Tiger Re-ID in the Wild track`, it contains images that have been detected and croped.
 
 
