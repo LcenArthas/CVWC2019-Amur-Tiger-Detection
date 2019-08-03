@@ -47,7 +47,7 @@ It will compile all the modules you need, including NMS, ROI_Pooing, ROI_Crop an
 
 ### Data Preparation
 
-Creat a new folder named `/test/`:
+Creat a new folder named `/test/` under the {repo_root}:
 
 ```
 mkdir test
