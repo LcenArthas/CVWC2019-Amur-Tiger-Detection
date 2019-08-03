@@ -33,7 +33,7 @@ Tested under python3.
 Compile the CUDA code:
 
 ```
-cd lib  # please change to this directory
+cd lib 
 sh make.sh
 ```
 
@@ -78,4 +78,16 @@ And make sure the repo files as the following structure:
   └── make_coco_data.py
       
   ```
+  
+### Inference Now!
+
+```
+cd tools
+python infer_simple.py
+```
+
+Run this scrip will generate 3 files in the {repo_root}:
+
+- det_submission.json — for the `Tiger Detection track`, you can submit in the Tiger Detection track(0.45988 in the Public Leaderboard)
+
 
