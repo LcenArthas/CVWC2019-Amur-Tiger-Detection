@@ -53,27 +53,29 @@ Put the test images in the `{repo_root}/test/` folder under the repo.
 
 I use Faster-rcnn-Resnet50-FPN to train my model.
 
-- [Trained weight](https://pan.baidu.com/s/1q5Wdzcq6aKtM1H_VugCe3w)
+ - [Trained weight](https://pan.baidu.com/s/1q5Wdzcq6aKtM1H_VugCe3w)
 
-Download them and put them into the `{repo_root}/data/pretrained_model`.
+Download it and put it into the `{repo_root}/trained_weight/`.
 
 And make sure the repo files as the following structure:
   ```
-  coco
-  ├── annotations
-  |   ├── instances_minival2014.json
-  │   ├── instances_train2014.json
-  │   ├── instances_train2017.json
-  │   ├── instances_val2014.json
-  │   ├── instances_val2017.json
-  │   ├── instances_valminusminival2014.json
+  {repo_root}
+  ├── configs
+  ├── lib
+  ├── test
+  |   ├── 0001.jpg
+  │   ├── 0002.jpg
+  │   ├── 0003.jpg
+  │   ├── 0004.jpg
+  │   ├── 0005.jpg
   │   ├── ...
-  |
-  └── images
-      ├── train2014
-      ├── train2017
-      ├── val2014
-      ├──val2017
-      ├── ...
+  ├── data
+  ├── trained_weight
+  │   ├── best_model.pth
+  ├── tools
+  ├── output
+  ├── reid_test
+  └── make_coco_data.py
+      
   ```
 
