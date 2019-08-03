@@ -12,7 +12,7 @@ git clone https://github.com/LcenArthas/CWCV2019-Amur-Tiger-Detection.git
 ```
 #### Dependencies
 
-Tested under python3.
+Tested under python3. Ubantu16.04
 
 - python packages
   - pytorch==0.4.1
