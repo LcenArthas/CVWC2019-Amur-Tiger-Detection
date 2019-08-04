@@ -78,7 +78,7 @@ mkdir trained_weight
 
 Put the trained weight into the `{repo_root}/trained_weight/`.
 
-And make sure the repo files as the following structure:
+**And make sure the repo files as the following structure:**
   ```
   {repo_root}
   ├── configs
