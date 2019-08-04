@@ -48,9 +48,9 @@ sh make.sh
 
 It will compile all the modules you need, including NMS, ROI_Pooing, ROI_Crop and ROI_Align. (Actually gpu nms is never used ...)
 
-## Training
+## Train
 
-**TO DO**
+**TO DO...**
 
 ## Inference
 
