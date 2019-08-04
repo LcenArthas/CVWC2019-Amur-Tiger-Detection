@@ -1,8 +1,12 @@
 # CWCV2019-Amur-Tiger-Detection
 
+<div align="center">
+
 <img src="demo/1354_Mask_RCNN-R50-FPN.jpg" width="700px"/>
 
 <p> Example output of <b>mask_rcnn-R-50-FPN_1x</b> using Detectron pretrained weight.</p>
+
+</div>
 
 This source of the code is mainly for the **Tiger Re-ID in the Wild track** [CVWC2019](https://cvwc2019.github.io/challenge.html) @ICCV19 Workshop:
 
