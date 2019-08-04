@@ -81,6 +81,7 @@ And make sure the repo files as the following structure:
   ```
   {repo_root}
   ├── configs
+  ├── demo
   ├── lib
   ├── test
   |   ├── 0001.jpg
