@@ -90,7 +90,7 @@ And make sure the repo files as the following structure:
   │   ├── 0003.jpg
   │   ├── 0004.jpg
   │   ├── 0005.jpg
-  │   ├── ...
+  │   └── ...
   ├── tools
   ├── trained_weight
   │   ├── best_model.pth
