@@ -25,13 +25,14 @@ Tested under python3. Ubantu16.04
 - python packages
   - pytorch==0.4.1
   - torchvision>=0.2.0
-  - cython
-  - matplotlib
-  - numpy
-  - scipy
-  - opencv
-  - pyyaml
-  - packaging
+  - cython==0.29.3
+  - matplotlib==3.1.1
+  - tqdm==4.32.2
+  - numpy==1.16.4
+  - scipy==1.2.1
+  - opencv==4.1.0.25
+  - pyyaml==5.1.1
+  - packaging==19.0
   - [pycocotools](https://github.com/cocodataset/cocoapi)  — for COCO dataset, also available from pip.
   - tensorboardX  — for logging the losses in Tensorboard
 - An NVIDAI GPU and CUDA 8.0 or higher. Some operations only have gpu implementation.
