@@ -18,7 +18,7 @@ This code is mainly for the **Tiger Re-ID in the Wild track**(detection part)[CV
 ```
 git clone https://github.com/LcenArthas/CWCV2019-Amur-Tiger-Detection.git
 ```
-#### Dependencies
+### Dependencies
 
 Tested under python3. Ubantu16.04
 
