@@ -8,7 +8,7 @@
 
 </div>
 
-This code is mainly for the **Tiger Re-ID in the Wild track**(detection part)[CVWC2019](https://cvwc2019.github.io/challenge.html) @ICCV19 Workshop:
+This code is for the **Tiger Re-ID in the Wild track**(detection part)[CVWC2019](https://cvwc2019.github.io/challenge.html) @ICCV19 Workshop:
 
 **To generate detected tiger pictures for Tiger Re-ID in the Wild**.
 
