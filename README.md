@@ -26,6 +26,7 @@ Tested under python3. Ubantu16.04
   - pytorch==0.4.1(Note: V1.0.1 may result in an error)
   - torchvision>=0.2.0
   - cython==0.29.3
+  - cffi==1.12.3
   - matplotlib==3.1.1
   - tqdm==4.32.2
   - numpy==1.16.4
