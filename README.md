@@ -113,7 +113,7 @@ mkdir pretrained_model
       
   ```
   
-### Inference Now!
+### Train Now!
 
 ```
 cd tools
