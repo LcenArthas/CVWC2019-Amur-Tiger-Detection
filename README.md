@@ -65,10 +65,23 @@ mkdir Original_train
 2.Put the train dataset(two folder: `atrw_anno_detection_train` & `atrw_detection_train`) in the `{repo_root}/data/Original_train/` folder under the repo.
 
 3.Transform the data style for the model
+
 ```
 python make_coco_data.py
 ```
 
+### Pre-trained weight
+
+1.Creat a new folder named `/pretrained_model/` under the `{repo_root}/data/`:
+
+```
+cd data
+mkdir pretrained_model
+```
+
+2.Download the pre-trained weighte and put it(resent50_caffe.pth) into the `{repo_root}/data/pretrained_model/`. 
+
+- [Pre-trained weight](https://pan.baidu.com/s/1pGsK1it1Y7gBVqd9it7OIA)
 
 
 
