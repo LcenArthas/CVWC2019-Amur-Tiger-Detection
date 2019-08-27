@@ -135,9 +135,10 @@ Eventually the trained model will be saved in `{repo_root}/tools/Outputs/`
 -------
 
 
-## Inference
+:running: Inference
+---------
 
-### Data Preparation
+## :one: Data Preparation
 
 Creat a new folder named `/test/` under the {repo_root}:
 
@@ -150,7 +151,7 @@ Put the test images in the `{repo_root}/test/` folder under the repo.
  - [Test Dataset](https://pan.baidu.com/s/1zErd1FW-1lofCacsPL3DmA)
 
 
-### Download Pretrained Model
+## :two: Download Pretrained Model
 
 I use Faster-rcnn-Resnet50-FPN to train my model.
 
@@ -184,7 +185,8 @@ Put the trained weight(best_model.pth) into the `{repo_root}/trained_weight/`.
       
   ```
   
-### Inference Now!
+:clap: Inference Now!
+--------
 
 ```
 cd tools
@@ -193,7 +195,7 @@ python infer_simple.py
 
 This process will take about 15 minutes, just a moment, please. 
 
-Run this scrip will generate 3 files in the {repo_root/}:
+:red_circle: Run this scrip will generate 3 files in the {repo_root/}:
 
 - **det_submission.json** — for the `Tiger Detection track`, you can submit in the Tiger Detection track (0.45988 mAP in the Public Leaderboard).
 
