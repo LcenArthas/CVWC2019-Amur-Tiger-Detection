@@ -195,7 +195,9 @@ python infer_simple.py
 
 This process will take about 15 minutes, just a moment, please. 
 
-:red_circle: Run this scrip will generate 3 files in the {repo_root/}:
+-------
+
+Run this scrip will generate 3 files in the {repo_root/}:
 
 - **det_submission.json** — for the `Tiger Detection track`, you can submit in the Tiger Detection track (0.45988 mAP in the Public Leaderboard).
 
