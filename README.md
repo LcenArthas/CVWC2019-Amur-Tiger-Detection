@@ -140,13 +140,13 @@ Eventually the trained model will be saved in `{repo_root}/tools/Outputs/`
 
 ## :one: Data Preparation
 
-Creat a new folder named `/test/` under the {repo_root}:
+:small_orange_diamond: Creat a new folder named `/test/` under the {repo_root}:
 
 ```
 mkdir test
 ```
 
-Put the test images in the `{repo_root}/test/` folder under the repo.
+:small_orange_diamond: Put the test images in the `{repo_root}/test/` folder under the repo.
 
  - [Test Dataset](https://pan.baidu.com/s/1zErd1FW-1lofCacsPL3DmA)
 
@@ -157,13 +157,13 @@ I use Faster-rcnn-Resnet50-FPN to train my model.
 
  - [Trained weight](https://pan.baidu.com/s/1q5Wdzcq6aKtM1H_VugCe3w)
 
-Download it and create a new folder under the {repo_root} named `/trained_weight/`
+:small_orange_diamond: Download it and create a new folder under the {repo_root} named `/trained_weight/`
 
 ```
 mkdir trained_weight
 ```
 
-Put the trained weight(best_model.pth) into the `{repo_root}/trained_weight/`.
+:small_orange_diamond: Put the trained weight(best_model.pth) into the `{repo_root}/trained_weight/`.
 
 **And make sure the repo files as the following structure:**
   ```
