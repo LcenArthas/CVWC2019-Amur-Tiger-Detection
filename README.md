@@ -83,7 +83,37 @@ mkdir pretrained_model
 
 - [Pre-trained weight](https://pan.baidu.com/s/1pGsK1it1Y7gBVqd9it7OIA)
 
-
+**And make sure the repo files as the following structure:**
+  ```
+  {repo_root}
+  ├── configs
+  ├── demo
+  ├── lib
+  ├── data
+  |   ├── coco
+  │   │    ├── anntations 
+  │   │    |    └── instances_train2017.json
+  │   │    └── images
+  │   │         └── train2017
+  │   │               ├── 0000.jpg
+  │   │               ├── 0002.jpg
+  │   │               ├── 0003.jpg
+  │   │               ├── 0004.jpg
+  │   │               ├── 0005.jpg
+  │   │               └── ...
+  |   ├── Original_train
+  |   |    ├── atrw_ann_detection_train
+  |   |    ├── atrw_detection_train
+  |   |    └── data
+  |   └── pretrained_model
+  |        ├── resnet50_caffe.pth
+  |        └── resnet101_caffe.pth  
+  ├── tools
+  └── make_coco_data.py
+      
+  ```
+  
+### Inference Now!
 
 ## Inference
 
