@@ -53,7 +53,21 @@ It will compile all the modules you need, including NMS, ROI_Pooing, ROI_Crop an
 
 ### Data Prearation
 
+- [Train Dataset](https://pan.baidu.com/s/17GxUlEwojRjNLtLlRbCPqw)
 
+1.Creat a new folder named `/Original_train/` under the `{repo_root}/data/`:
+
+```
+cd data
+mkdir Original_train
+```
+
+2.Put the train dataset(two folder: `atrw_anno_detection_train` & `atrw_detection_train`) in the `{repo_root}/data/Original_train/` folder under the repo.
+
+3.Transform the data style for the model
+```
+python make_coco_data.py
+```
 
 
 
@@ -70,7 +84,7 @@ mkdir test
 
 Put the test images in the `{repo_root}/test/` folder under the repo.
 
-[Test Dataset](https://pan.baidu.com/s/1zErd1FW-1lofCacsPL3DmA)
+ - [Test Dataset](https://pan.baidu.com/s/1zErd1FW-1lofCacsPL3DmA)
 
 
 ### Download Pretrained Model
