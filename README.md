@@ -1,4 +1,4 @@
-# CWCV2019-Amur-Tiger-Detection
+# C2019-Amur-Tiger-Detection
 
 <div align="center">
 
