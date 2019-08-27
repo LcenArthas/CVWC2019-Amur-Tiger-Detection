@@ -120,6 +120,8 @@ cd tools
 python train_net_step.py
 ```
 
+Eventually the trained model will be saved in `{repo_root}/tools/Outputs/`
+
 ## Inference
 
 ### Data Preparation
