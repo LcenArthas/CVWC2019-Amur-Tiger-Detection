@@ -4,7 +4,7 @@
 
 <img src="demo/1354_Mask_RCNN-R50-FPN.jpg" width="700px"/>
 
-<p> Example output of <b>mask_rcnn-R-50-FPN_1x</b> .</p>
+<p> Example output of <b>Faster_Rcnn-R-50-FPN_1x</b> .</p>
 
 </div>
 
@@ -51,7 +51,9 @@ It will compile all the modules you need, including NMS, ROI_Pooing, ROI_Crop an
 
 ## Train
 
-**TO DO...**
+### Data Prearation
+
+
 
 ## Inference
 
