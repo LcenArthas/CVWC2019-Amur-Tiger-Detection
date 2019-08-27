@@ -3,7 +3,7 @@ CVWC2019-Amur-Tiger-Detection
 
 <div align="center">
 
-<img src="demo/1354_Mask_RCNN-R50-FPN.jpg" width="700px"/>
+<img src="demo/1354_Mask_RCNN-R50-FPN.jpg" width="900px"/>
 
 <p> Example output of <b>Faster_Rcnn-R-50-FPN_1x</b> .</p>
 
