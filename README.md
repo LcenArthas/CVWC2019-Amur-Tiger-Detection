@@ -1,4 +1,5 @@
-# CVWC2019-Amur-Tiger-Detection
+CVWC2019-Amur-Tiger-Detection
+===================
 
 <div align="center">
 
@@ -8,17 +9,21 @@
 
 </div>
 
-This code is for the **Tiger Re-ID in the Wild track**(detection part)[CVWC2019](https://cvwc2019.github.io/challenge.html) @ICCV19 Workshop:
+:star:This code is for the **Tiger Re-ID in the Wild track** (detection part) [CVWC2019](https://cvwc2019.github.io/challenge.html) @ICCV19 Workshop:
 
 **To generate detected tiger pictures for Tiger Re-ID in the Wild**.
 
-## Getting Started
-### Clone the repo:
+------
+
+:running:Getting Start
+----------
+
+## :one: Clone the repo:
 
 ```
 git clone https://github.com/LcenArthas/CVWC2019-Amur-Tiger-Detection.git
 ```
-### Dependencies
+## :two: Dependencies
 
 Tested under python3. Ubantu16.04
 
@@ -38,7 +43,7 @@ Tested under python3. Ubantu16.04
   - tensorboardX  — for logging the losses in Tensorboard
 - An NVIDAI GPU and CUDA 8.0 or higher. Some operations only have gpu implementation.
 
-### Compilation
+## :three: Compilation
 
 Compile the CUDA code:
 
@@ -49,37 +54,40 @@ sh make.sh
 
 It will compile all the modules you need, including NMS, ROI_Pooing, ROI_Crop and ROI_Align. (Actually gpu nms is never used ...)
 
-## Train
+-----
 
-### Data Prearation
+:running: Train
+-------
+
+## :one: Data Prearation
 
 - [Train Dataset](https://pan.baidu.com/s/17GxUlEwojRjNLtLlRbCPqw)
 
-1.Creat a new folder named `/Original_train/` under the `{repo_root}/data/`:
+:small_orange_diamond: Creat a new folder named `/Original_train/` under the `{repo_root}/data/`:
 
 ```
 cd data
 mkdir Original_train
 ```
 
-2.Put the train dataset(two folder: `atrw_anno_detection_train` & `atrw_detection_train`) in the `{repo_root}/data/Original_train/` folder under the repo.
+:small_orange_diamond: Put the train dataset(two folder: `atrw_anno_detection_train` & `atrw_detection_train`) in the `{repo_root}/data/Original_train/` folder under the repo.
 
-3.Transform the data style for the model
+:small_orange_diamond: Transform the data style for the model
 
 ```
 python make_coco_data.py
 ```
 
-### Pre-trained weight
+## :two: Pre-trained weight
 
-1.Creat a new folder named `/pretrained_model/` under the `{repo_root}/data/`:
+:small_orange_diamond: Creat a new folder named `/pretrained_model/` under the `{repo_root}/data/`:
 
 ```
 cd data
 mkdir pretrained_model
 ```
 
-2.Download the pre-trained weighte and put it(resent50_caffe.pth) into the `{repo_root}/data/pretrained_model/`. 
+:small_orange_diamond: Download the pre-trained weighte and put it(resent50_caffe.pth) into the `{repo_root}/data/pretrained_model/`. 
 
 - [Pre-trained weight](https://pan.baidu.com/s/1pGsK1it1Y7gBVqd9it7OIA)
 
@@ -113,7 +121,8 @@ mkdir pretrained_model
       
   ```
   
-### Train Now!
+:clap: Train Now!
+--------
 
 ```
 cd tools
@@ -121,6 +130,10 @@ python train_net_step.py
 ```
 
 Eventually the trained model will be saved in `{repo_root}/tools/Outputs/`
+
+
+-------
+
 
 ## Inference
 
