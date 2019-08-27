@@ -115,6 +115,11 @@ mkdir pretrained_model
   
 ### Inference Now!
 
+```
+cd tools
+python train_net_step.py
+```
+
 ## Inference
 
 ### Data Preparation
